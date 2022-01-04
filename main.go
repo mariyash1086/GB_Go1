@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+//hw3
 func main() {
 
 	//1. calculation
