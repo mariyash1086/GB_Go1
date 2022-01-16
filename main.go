@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
+//HW4
 func main() {
 	slice := []int{1, 10, 20, 5, 6, 4, 0, 178, 150}
 
 	fmt.Println(slice)
 	sort(slice)
 	fmt.Println(slice)
-
 }
 
 func sort(a []int) {
@@ -30,5 +30,4 @@ func sort(a []int) {
 		}
 
 	}
-
 }
